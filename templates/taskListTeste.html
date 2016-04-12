@@ -1,0 +1,25 @@
+<div class="container">
+		  <div class="col-sm-12 col-md-6 " id="input-heading">
+		      <div class="jumbotron">
+		        <h1 class="heading">My To-Do List</h1>
+		      </div>
+
+		      <div class="input-group">
+		        <input  class="form-control" id="taskTitle" placeholder="Title">
+		            <span class="input-group-addon">
+		              <span class="glyphicon glyphicon-text-size"></span>
+		            </span>
+		      </div>
+
+		      <div class="input-group">
+		        <input class="form-control" id="inputTask" placeholder="Task">
+		        <span class="input-group-btn">
+		          <button class="btn btn-default" ng-click="" >Add</button>
+		        </span>
+		      </div>
+		  </div>
+      <!-- Html injection happens here -->
+    <div class="col-sm-12 col-md-6" id="taskList">
+        <div ui-view></div>
+    </div>
+</div>

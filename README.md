@@ -1,0 +1,2 @@
+-Task list application built with AngularJS
+-Work in progress 

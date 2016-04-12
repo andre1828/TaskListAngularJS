@@ -1,0 +1,38 @@
+*:after {
+	visibility: hidden;
+
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+.panel-heading{
+  display: flex;
+}
+
+.btn-danger{
+	visibility: hidden;
+  position: absolute;
+  float: right;
+}
+
+.panel-heading:hover .btn-danger{
+	visibility: visible;
+}
+
+.input-group{
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 992px) {
+
+		#input-heading,
+		#taskList
+		{
+			margin: auto;
+			float: none;
+		}
+
+	}
+
+}
